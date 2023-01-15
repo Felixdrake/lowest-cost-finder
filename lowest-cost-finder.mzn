@@ -22,6 +22,7 @@ array[UNIVERSITY,FEATURES] of int: informatics;
 array[UNIVERSITY,FEATURES] of int: business; 
 array[UNIVERSITY,FEATURES] of int: psychology; 
 array[UNIVERSITY,FEATURES] of int: doctor;
+array[UNIVERSITY,FEATURES] of int: economy;
 % ....  tambah lagi aja kalo bisa
 
 array[FEATURES] of var int: uni;
@@ -51,6 +52,7 @@ informatics_name = ["Universitas Bina Nusantara","Universitas Esa Unggul","Unive
 business_name = ["Universitas Bina Nusantara","Universitas Esa Unggul","Universitas Trisakti","Universitas LSPR","Universitas Al Azhar Indonesia","Universitas Kristen Krida Wacana"];
 doctor_name = ["Universitas Trisakti","Universitas Kristen Krida Wacana"];
 psychology_name = ["Universitas Bina Nusantara","Universitas Esa Unggul","Universitas Al Azhar Indonesia","Universitas Kristen Krida Wacana"];
+economy_name= ["Universitas Bina Nusantara","Universitas Esa Unggul","Universitas Al Azhar Indonesia"];
 
 
 % bawah ini aja isi datanya
@@ -89,4 +91,9 @@ psychology =
 |  6, 1, 1, 12000000, 20000000,30000 |]; %Universitas Kristen Krida Wacana
 
 
-
+economy =
+%nama,acrdtn,ctgry,semester,U_pangkal,fare
+[| 1, 1, 1, 19300000, 35000000 ,5000       %Universitas Bina Nusantara
+|  2, 2, 1, 12000000, 18500000 ,10000      %Universitas Esa Unggul
+|  4, 2, 1, 13000000, 24500000 ,15000      %Universitas LSPR
+|  5, 2, 1, 19800000, 10500000 ,5000 |];   %Universitas Universitas Al Azhar Indonesia
